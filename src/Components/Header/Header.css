@@ -12,6 +12,10 @@
   margin: 20px 0 100px 0;
 }
 
+.listMode {
+  margin: 20px 0 0 0;
+}
+
 .headerList {
   display: flex;
   gap: 40px;
@@ -79,48 +83,48 @@
   user-select: none;
 }
 
-.date{
+.date {
   position: absolute;
   top: 50px;
 }
 
-.options{
+.options {
   position: absolute;
   top: 50px;
   background-color: #fff;
   color: #2b4865;
   border-radius: 5px;
-  box-shadow: 9px 16px 41px 0px rgba(0,0,0,0.1);
+  box-shadow: 9px 16px 41px 0px rgba(0, 0, 0, 0.1);
 }
 
-.optionItem{
+.optionItem {
   width: 200px;
   display: flex;
   justify-content: space-between;
-  margin: 10px; 
+  margin: 10px;
 }
 
-.optionCounter{
+.optionCounter {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 14px;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.optionCounterButton{
+.optionCounterButton {
   width: 30px;
   height: 30px;
-  border: 1px solid #256D85;
-  color: #256D85;
+  border: 1px solid #256d85;
+  color: #256d85;
   background-color: #fff;
 }
 
-.optionCounterNumber{
-  font-family: 'Courier New', Courier, monospace;
+.optionCounterNumber {
+  font-family: "Courier New", Courier, monospace;
 }
 
-.optionCounterButton:disabled{
+.optionCounterButton:disabled {
   cursor: not-allowed;
 }
