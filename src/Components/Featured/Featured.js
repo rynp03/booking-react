@@ -1,11 +1,12 @@
 import React from "react";
+import "./Featured.css";
 
 const Featured = () => {
   return (
     <div className="featured">
       <div className="featuredItem">
         <img
-          src="https://media.istockphoto.com/photos/dublin-by-night-picture-id659151362?b=1&k=20&m=659151362&s=170667a&w=0&h=W0nYIG8x-3-WSFqBQC8QZ5Pw8k7wVj_hZ7SngIlVZsQ="
+          src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
           alt="dublin"
           className="featuredImg"
         />
@@ -16,7 +17,7 @@ const Featured = () => {
       </div>
       <div className="featuredItem">
         <img
-          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/cd/04/caption.jpg?w=700&h=-1&s=1&cx=1440&cy=949&chk=v1_1dc18af01397ba07dac9"
+          src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
           alt="austin"
           className="featuredImg"
         />
@@ -27,7 +28,7 @@ const Featured = () => {
       </div>
       <div className="featuredItem">
         <img
-          src="https://media.istockphoto.com/photos/cityscape-of-the-downtown-reno-nevada-skyline-with-hotels-and-casinos-picture-id1255614481?k=20&m=1255614481&s=612x612&w=0&h=cjBjNSfXnPwglN1gtb1D3j4b3uzB7lfjy4kkLkBw-6A="
+          src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
           alt="reno"
           className="featuredImg"
         />
