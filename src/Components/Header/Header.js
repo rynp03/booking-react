@@ -72,11 +72,11 @@ const Header = ({ type }) => {
         {type !== "list" && (
           <>
             <h1 className="headerTitle">
-              A lifetime of discounts? It's Genius.
+              A Lifetime Of Discounts? It's Genius.
             </h1>
             <p className="headerDesc">
               Get rewarded for your travels – unlock instant savings of 10% or
-              more with a free Lamabooking account
+              more with a free booking account
             </p>
             <button className="headerBtn">Sign in / Register</button>
             <div className="headerSearch">
@@ -112,11 +112,11 @@ const Header = ({ type }) => {
                 <span
                   onClick={() => setOpenOptions(!openOptions)}
                   className="headerSearchText"
-                >{`${options.adult} Adult · ${options.children} Children · ${options.room} Rooms`}</span>
+                >{`${options.adult} Adults · ${options.children} Children · ${options.room} Rooms`}</span>
                 {openOptions && (
                   <div className="options">
                     <div className="optionItem">
-                      <span className="optionText">Adult</span>
+                      <span className="optionText">Adults</span>
                       <div className="optionCounter">
                         <button
                           disabled={options.adult <= 1}

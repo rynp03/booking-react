@@ -1,19 +1,19 @@
-import React from 'react';
-import './maillist.css';
+import React from "react";
+import "./Maillist.css";
 
 const Maillist = () => {
   return (
-    <div className='mail'>
-        <h1 className='mailtitle'>Save Time, save money!</h1>
-        <span className='maildesc'>Sign up and we'll send the best deals to you </span>
-        <div className='mailinput'>
-            <input type='text' placeholder="Your Email" />
-            <button>Subscribe</button>
-
-        </div>
-      
+    <div className="mail">
+      <h1 className="mailtitle">Save Time, Save Money!</h1>
+      <span className="maildesc">
+        Sign up and we'll send the best deals to you
+      </span>
+      <div className="mailinput">
+        <input type="text" placeholder="Your Email" />
+        <button>Subscribe</button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Maillist
+export default Maillist;

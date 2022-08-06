@@ -1,9 +1,8 @@
-import React from 'react';
-import './Featuredprop.css';
+import React from "react";
+import "./Featuredprop.css";
 
 const Featuredprop = () => {
   return (
-    
     <div className="fp">
       <div className="fpItem">
         <img
@@ -61,9 +60,8 @@ const Featuredprop = () => {
           <span>Excellent</span>
         </div>
       </div>
-      
-    </div> 
-  )
-}
+    </div>
+  );
+};
 
-export default Featuredprop
+export default Featuredprop;

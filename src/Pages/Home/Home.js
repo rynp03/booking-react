@@ -15,10 +15,10 @@ const Home = () => {
       <div className="homeContainer">
         <Featured />
         <h1 className="homeTitle">Browse By Property Type</h1>
-        <Propertylist/>
+        <Propertylist />
         <h1 className="homeTitle">Homes guests love</h1>
-        <Featuredprop/>
-        <Maillist/>
+        <Featuredprop />
+        <Maillist />
       </div>
     </div>
   );
