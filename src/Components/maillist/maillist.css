@@ -1,13 +1,13 @@
 .mail {
-  width: 100%;
+  width:93%;
   margin-top: 50px;
   background-color: #002b5b;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  padding: 40px;
+  gap: 20px;
+  padding: 50px;
 }
 .mailinput > input {
   width: 300px;
